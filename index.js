@@ -37,7 +37,7 @@ bot.onText(/\/start/, (msg) => {
     },
   };
   const list =
-    "Danh sách lệnh:\n" +
+    "\nDanh sách lệnh:\n" +
     "1. /p [coin name] để xem giá (vd: /p bitcoin)\n" +
     "2. /calc [expression] để tính toán (vd: /calc 1+1)\n" +
     "3. /val [amount] [coin name] để xem giá trị (vd: /val 0.5 bitcoin)\n" +
